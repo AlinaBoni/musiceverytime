@@ -1,0 +1,308 @@
+<!doctype html>
+
+	<html>
+
+	<head>
+
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/styledocumentazione.css">
+
+		
+
+
+		<title>Music Everytime</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kotta+One&family=Lato&family=The+Nautigal&display=swap" rel="stylesheet">
+
+		<script src="https://kit.fontawesome.com/adfde1ab0f.js" crossorigin="anonymous"></script> <!-- è una libreria di icone senza doverla scaricare-->
+
+		<link rel="icon" type="image/icona" href="img/favicon.ico"> <!--favicon-->
+
+
+
+
+		<!--bootstrap link ... vedi se ti servono-->
+
+		<!-- Bootstrap CSS 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+		<!-- jQuery per primo, poi Popper.js, poi Bootstrap JS => va seguito l'ordine e mai modificato-->
+		<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+
+		<!-- a me le cose di Bootstrap non piacciono => cancellale! -->
+			
+
+	</head>
+
+	<body>
+
+		<header>
+			<h1 id="title">Music Everytime</h1>
+			<a href="index.html"><img id="logo" src="img/logo.png"/></a>
+
+
+			<nav>
+				<ul>
+					<li><a class="vocemenu active" href="#ipsummare">HOME</a>
+							
+					</li>
+						
+					<li><a class="vocemenu" href="#musicmood">MUSIC MOOD</a>
+							
+					</li>
+					<li><a class="vocemenu" href="#aboutus">ABOUT US</a>
+							
+					</li>
+				</ul>
+			</nav>
+
+			<!--
+			<div class="side-bar" onclick="toggleMenu(this)">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			-->
+
+		
+
+		</header>
+		
+
+		<main class="fontmain">
+
+			<section class="scene">
+				<img id="diskround" src="img/disk.png"/>
+				</section>
+
+
+
+				<section id="scene1">
+					<img class="stereo" src="img/stereo.png"> 
+				</section>
+
+			<section id="ipsummare">
+
+				<p class="primo" > La musica è universale. Tutti la ascoltano. Tutti la ballano. Tutti la cantano. </p>
+				<p class="primo"> Anche se le parole di un testo non si conoscono. </p>
+				<p class="primo"> Anche se si è stonati.</p>
+				<p class="primo"> Sei triste? Una canzone malinconica potrebbe darti l'abbraccio che ti serve. Una ritmata, il coraggio per andare avanti. </p>
+
+				<!--<img id="marehome" src="img/mare.png"/> -->
+
+			</section>	
+
+
+			<section id="ipsummare2">
+
+				<!--<img id="mma" src="img/picprova.png"> no perché l'ho inserita come sfondo da CSS-->
+
+				<p id="secondo"> La musica suona le corde delle emozioni.Può suscitare sentimenti sorprendenti e quei pochi minuti diventano una perfetta colonna sonora per un bellissimo viaggio...<i class="fontkotta">ad occhi aperti.</i></p>
+				
+			</section>	
+
+
+			<section id="ipsummare3">
+
+				<p> Ma che dire della musica degli anni Cinquanta? </p>
+				<p> Non tutti l'abbiamo vissuta. In molti la ascoltiamo, cantiamo e balliamo.</p>
+				<p> I 50s non torneranno, ma i ricordi restano e la loro musica resterà per sempre.</p>
+				
+			</section>
+
+
+
+
+<!-- non sono cose che mi interessano più e non ci sono più in CSS ... sono solo ESEMPI DAL PASSATO...
+
+
+			<section id="">
+				<img id="homeimage" src="img/oro.jpg" alt="color oro"/>
+
+									in CSS ___
+
+									#homeimage {border-radius: 100px;
+										max-width: 100%;
+										margin: 100px 25%;
+										opacity: 0.5;
+										transition: opacity .25s ease-in-out; /*la transizione va inserita sotto all'elemento base, non sotto a :hover*/
+										}
+
+									#homeimage:hover {opacity: 1.0;}
+
+
+
+				- gli elementi milestone (img) hanno la forma abbreviata => per chiudergli basta mettere lo slash /> 
+				- per l'usabilità, dovremo dare un testo alternativo all'immagine... alt="scrivo ciò che l'img rappresenta"
+
+			    - <iframe src="https://www.youtube.com/watch?v=w0ffwDYo00Q"></iframe> 
+			    - <iframe src="https://www.youtube.com/embed/w0ffwDYo00Q"></iframe>
+			</section>
+
+			<section>
+				<a href="musicmood.html"><button id="">Lets'see</button></a>    ____	in CSS  ....   #buttonhome:hover {width: 200px;}
+			</section>
+
+			<section id="">
+				<button id="diskround"><img id="diskround" src="img/disk.png"/></button> 
+
+									in CSS ___  
+
+									#diskround {
+										background-color: transparent !important;
+										padding-left: 0px!important;
+									    padding-top: 0px;
+										padding-right: 0px;
+										padding-bottom: 0px;
+										margin-top: 0px !important;
+										margin-bottom: 0px !important;
+										margin-left: 0px !important;
+										margin-right: 0px !important;
+										border: none;
+										border-color: transparent;
+										padding-color: transparent;
+										border: none;
+										color: transparent;
+										animation: logobutton 9s;
+										animation-timing-function: linear;
+									    animation-duration: 9s;
+									    animation-name: logomove;
+									    position: relative; ;
+									    width: 200px;
+									    height: 200px;
+									    animation-iteration-count: 2;
+									    animation-direction: alternate;
+										max-width: 100%;
+									    }
+
+									@keyframes logomove {  
+										10%  {left: 0px; top: 0px; width: 200px; height: 200px;}
+									    30%  {left: 200px; top: 0px; width: 200px; height: 200px;}
+									    60%  {left: 300px; top: -10px; width: 200px; height: 5px;}
+									   100%  {left: 320px; top: 0px; width: 200px; height: 5px;}
+									   100%  {transform: rotate(360deg);} 
+										}
+
+			</section>
+
+		
+		Esempio di come creare delle colonne da Bootstrap. A me non piace. Ci sono riuscita con W3...
+
+			<section class="container">
+			  <div class="row">
+				    <div class="col">
+				    	<p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato.</p>
+				    </div>
+					    <div class="col"><img id="" src="img/oro.jpg"></div>
+					    <div class="w-auto"></div>
+			   </div>
+
+			</section>
+
+			<section id="proviamo">  </section>
+				 e ci siamo riusciti... meglio di Bootstrap! vai in CSS e scrivi #proviamo {column-count: 2;}
+
+									in CSS___
+
+									#proviamo {/* e ci siamo riusciti!!! meglio di Bootstrap*/
+										column-count: 2;
+										background-color: white;
+										}
+
+
+FINE COMMENTO dal passato -->
+
+			<h2 id="musicmood">Music Mood</h2>
+
+				<p><img id="vinil" src="img/5650.jpg"/></p>
+
+				<section>
+				<p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. </p>
+				</section>
+
+
+	
+
+				<section>
+					<p>Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+				</section>
+
+				<section>
+					<p>Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+				</section>
+
+				<section>
+					<p>Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+				</section>
+
+				<section>
+					<p>Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+				</section>
+
+				<section>
+					<p>Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+				</section>
+
+				<section>
+					<p>Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+				</section>
+
+				<section>
+					<p>Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+				</section>
+
+				<section>
+					<p>Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</p>
+				</section>
+
+
+			<h2 id="aboutus">About Us</h2>
+
+				<section id="aboutustext">
+
+				<p> Ciao! Questo sito è nato da un progetto universitario.</p>
+				<p> Volevo parlare della mia percezione della musica. Di come sarebbe bello, come accade nei film, camminare e improvvisamente dall'universo suona una canzone che si sposa perfettamente con gli stati d'animo che vivi e con i pensieri che hai. </p>
+				<p> Perché proprio gli anni Cinquanta?</p>
+				<p> Perché hanno quel ché di... <i class="fontkotta">magico</i>.</p>
+				<p> E sì, mi sarebbe piaciuto entrare in un bar di New York, ascoltare Sinastra cantare, andare al drive in e ballare con Gene Kelly sotto le note di <i class="fontkotta">Singing in the rain</i>.</p>
+				<p> E tu? Cos'è per te la musica degli anni Cinquanta?</p>
+
+
+				<p id="emailme">Racconta!<br><i class="fa-solid fa-envelope"></i><br> <input type="email" name="send"> <button type="send" value="Send">Send</button></p>
+
+
+
+			
+		</main>
+
+<!--
+		<script type="text/javascript">
+			function toggleMenu(e) {
+				e.classList.toggle("open");
+			}
+		</script> 
+-->
+
+	</body>
+
+	<footer>
+		<p> Sito realizzato da Alina Boni</p>
+		<a id="doc" href="documentazione.html"/><i class="fa-solid fa-file-lines"></i>	
+
+		<a class="bottomtop" href="#logo"><img src="img/bottomtop.png"/></a>	
+	</footer>
+
+
+</html>
