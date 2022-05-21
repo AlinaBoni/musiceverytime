@@ -1,0 +1,504 @@
+@media only screen and (max-width: 600px) {...}
+@media only screen and (max-width: 768px) {....}
+@media only screen and (max-width: 992px) {....}
+@media only screen and (max-width: 1200px) {....}
+
+
+
+
+html {  
+	scroll-behavior: smooth;}
+
+/*BODY: pagina genepxrale comprendente HEADER (NAV - menu navigazione)*/ 
+
+body {
+  background-color: #ffffff; 
+  /*background-color: #C3A476*/
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px;
+  max-width: 100%;
+
+	}
+
+
+/*______________________________________________________________________________________________*/
+
+
+
+/*HEADER: H1; NAV (generale); ul (); li (); a (link voci menu);*/
+
+
+header {
+	/*display: inline-block; /*--> non serve... altrimenti mette img-logo e h1 sullo stesso piano... e sfasa tutto!!!*/
+	text-align: center;
+	background-color: #ffffff !important;
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+	border: 0px 0px 0px 0px !important;
+	column-count: 2;
+	column-width: auto;	
+	max-width: 100%;
+
+
+
+			}
+
+			
+
+	#title {/*h1 Music Everytime (invisible)*/
+		font-size: 0px;
+		text-align: center;
+		font-family: 'Kotta One', serif !important;
+		}
+
+
+
+	#logo {/*logo nuovo nella header*/
+		width: 60% !important;
+		margin: 0px !important;
+		text-align: left !important;
+		padding-left: 10px;
+		padding-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+}
+
+
+
+
+	
+nav {
+	text-align: center !important;
+	margin-top: 0px;
+	margin-bottom: 0px !important; /*  !important serve a dire che se trovia informazioni contraddittorie altrove, questa è la più importante*/
+	margin-right: 0px;
+	margin-left: -280px;
+	background: transparent !important;
+	padding-left: 60px !important;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-top: 150px;
+	text-decoration: none; /*non voglio sottolineature etc.*/
+
+
+
+  		
+	}
+
+
+
+	nav ul { 
+	 	text-align: center!important;
+     	padding: 0px !important;
+	 	list-style-type: none !important; /*non mette i puntini dell'elenco puntato*/
+		text-decoration: none; /*non voglio sottolineature etc.*/
+
+		}
+
+
+
+		nav ul li {
+			display: inline-block !important; /*menu orizzontale*/
+			text-align: center !important;
+			padding: 0px 0px 0px 0px ;
+			margin: 0px;
+			margin-bottom: 0px;
+			text-transform: uppercase; /*se non ho voglia di scriverlo in maiuscolo in ogni file .html*/
+			padding-color: green;
+			text-decoration: none; /*non voglio sottolineature etc.*/
+
+	  		}
+
+
+	    .vocemenu { /*ogni singola voce menu*/
+	  		margin: 0px 0px 40px 40px;
+	  		padding: 0px 0px 0px 0px;
+			background-color: none; /*non voglio dare uno sfondo a ogni singola voce del menu, ma l'ho già messo generale in nav (#2e2e2e)*/
+			text-decoration: none; /*non voglio sottolineature etc.*/
+			color: #8a8a8a;
+			text-transform: uppercase;
+
+			
+			}
+		   	 		   
+		.vocemenu:hover {/*cosa succede se passo il mause su ogni voce menu*/
+			text-align: center;
+			color: #C3A476;
+			font-style: bold;
+			text-decoration: none; /*non voglio sottolineature etc.*/
+
+				}
+
+
+		.active {/*cosa succede alla voce menu della pagina su cui mi trovo*/
+			text-align: center;
+			text-decoration: none; /*non voglio sottolineature etc.*/
+			color: #C3A476;
+			padding: 0px !important; /*altrimenti quando una pagina è selezionata, la voce si sposta leggermente...*/
+			}
+
+		
+
+
+		   	 		   
+		/*
+			per modificare i link (non le voci) del menu, posso agire o su .vocimenu oppure specificando nav ul li a {} (come sotto)
+
+			nav ul li a {
+				display: inline-block; 
+				text-align: center;
+				background-color: none;
+	
+		*/
+
+
+
+
+			
+/*FINO A QUI TUTTO GIUSTO!! NON CAMBIARE NULLA!!*/
+
+
+
+
+
+/*______________________________________________________________________________________________*/
+
+
+
+
+
+/*MAIN (contenuti - SECTION...); */
+
+
+#ipsummare {
+	/*column-count: 2;
+	column-gap: 0px;
+	column-width: auto;	
+	/*background-color: #C3A476;*/
+	/*background-color: #ffffff !important;*/
+	margin: 0px 0px 0px 0px;
+	padding: 0px 848px 0px 0px;
+	border: 0px 0px 0px 0px;
+	background: url(../img/mare.png) no-repeat right!important;
+	height: 300px;
+	width: 500px;
+	}
+
+
+#ipsummare2 {
+	/*column-count: 2;
+	column-gap: 0px;
+	column-width: auto;
+	/*background-color: #C3A476;*/
+	margin-top: 0px 0px 0px 0px;
+	padding: 00px 0px 0px 00px;
+	border: 0px 0px 0px 0px;
+	/*background-color: #ffffff !important;*/
+		background: url(../img/picprova.png) !important;
+		background-size: 100%;
+		background-position: left;
+		height: 300px;
+		text-align: left;
+			width: 600px;
+
+
+
+
+	}
+
+#ipsummare3 {
+	margin-top: -100px;
+	padding: 0px 0px 0px 400px;
+	border: 0px 0px 0px 0px;
+	/*background-color: #ffffff !important;*/
+		height: 300px;
+		text-align: left;
+			width: 500px;
+
+
+	}
+
+
+
+
+
+.primo { 
+	padding-left: 200px;
+	width: 600px;
+	text-align: left;
+
+}
+
+.secondo {
+	padding-left: 900px;
+	text-align: left;
+	width: 200px;
+
+}
+
+.fontmain {
+	font-family: 'Lato', sans-serif !important;
+	padding: 170px 0px 50px 0px;
+	}
+	
+
+	/* i due punti e slash dicono che rispetto a dove ci troviamo...quindi in style.css dobbiamo 
+	   tornare indietro alla cartella img per prendere la nostra immagine...*/
+
+.fontkotta {
+		font-family: 'Kotta One', serif;
+
+	}
+
+
+#musicmood, #aboutus {
+	padding-top: 80px;
+	padding-bottom: 20px;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+#aboutustext {
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 0px;
+}
+
+#vinil {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height: auto;
+	width: 100%;
+}
+
+
+/*funziona benissimo... aggiungere il giradischi*/
+
+
+
+
+/*______________________________________________________________________________________________*/
+
+
+
+
+
+/*FOOTER*/
+
+
+footer {
+	text-align: center;
+	height: 70px;
+	color: grey;
+	background-color: #111119;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+
+
+
+}
+
+footer p {
+	text-align: center;
+	font-family: 'Kotta One', serif;
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+	}
+
+
+.bottomtop {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99 ; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: none; /* Set a background color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 0px; /* Some padding */
+  border-radius: 0px; /* Rounded corners */
+  text-align: right;
+  opacity: 0.3;
+}
+
+.bottomtop:hover {
+  opacity: 0.5 ;
+}
+
+
+
+
+/*ICONA DOCUMENTAZIONE --> CSS in styledocumentazione.css */
+
+
+#sfondodoc {
+	background-color: #C3A476; margin: 0px; padding: 0px; border: 0px;}
+
+
+
+#doc { /*icona file per collegamento a documentazione*/
+	color: #C3A476;
+	font-size: 25px;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+/*----------------------------------*/
+
+
+
+
+
+/*.side-bar {
+	height: 92px;
+	width: 100px;
+	position: absolute;
+	background: #111119;
+	border-radius: 15px;
+
+}
+
+.side-bar span {
+	height: 5px;
+	width: 65px;
+	display: block;
+	background: #000;
+	position: absolute;
+	background: #fff;
+	left: 18px;
+	transition: all 1.0 ease-in-out;
+
+}
+
+.side-bar:hover {
+	cursor: pointer;
+
+}
+
+.side-bar span:nth-child(1) {top:35px;}
+.side-bar span:nth-child(2) {top:45px;}
+.side-bar span:nth-child(3) {top:55px;}
+
+.side-bar.open span:nth-child(1) {
+	transform: rotate(45deg);
+	top: 43px;
+	left: 17px;
+}
+
+.side-bar.open span:nth-child(2) {
+	width: 0%;
+	opacity: 0;
+
+}
+
+.side-bar.open span:nth-child(3) {
+	transform: rotate(-45deg);
+	top: 45px;
+	left: 16px;
+}*/
+
+
+
+
+/*_____________________________________________________________________________________________________*/
+
+
+.scene {
+	height: 200px;
+	position: relative;
+	background: url(../img/5570.jpg);
+}
+
+.scene img {
+	position: relative;
+
+}
+
+
+#diskround {
+background-color: transparent !important;
+padding-left: 0px!important;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+border: none;
+border-color: transparent;
+padding-color: transparent;
+border: none;
+color: transparent;
+animation: logobutton 9s;
+animation-timing-function: linear;
+animation-duration: 9s;
+animation-name: logomove;
+position: relative; ;
+width: 200px;
+height: 200px;
+animation-iteration-count: 2;
+animation-direction: alternate;
+
+}
+
+
+
+@keyframes logomove  {
+
+
+10%  {left: 0px; top: 0px; width: 200px; height: 200px;}
+30%  {left: 400px; top: 0px; width: 200px; height: 200px;}
+50%  {left: 660px; top: -10px; width: 200px; height: 5px;}
+60%  {left: 1000px; top: 20px; width: 200px; height: 5px;}
+100%  {left: 1000px; top: 200px; width: 150px; height: 5px;}
+100%  {transform: rotate(360deg);} 
+
+}
+
+
+
+
+
+ .stereo {
+ 		padding-left: 1000px;
+ 		margin-top: 0px;
+ 		
+ }
+
+
+ /*--------------------------------*/
+
+
+input[type=email] {
+  width: 200px;
+  text-align: center;
+  transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+    margin-top: 30px;
+
+}
+input[type=email]:focus {
+  width: 300px;
+}
+
+#emailme {
+	vertical-align: center;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}

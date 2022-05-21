@@ -1,0 +1,160 @@
+html {scroll-behavior: smooth;}
+
+#bodydoc {
+	background-color: #C3A476; 
+
+
+}
+
+#sfondodoc {
+	background-color: #C3A476; margin: 0px; padding: 0px; border: 0px;}
+
+
+
+#doc { /*icona file per collegamento a documentazione*/
+	color: #C3A476;
+	font-size: 25px;
+}
+
+
+.textdocumentazione {/* tutti i testi in <main>*/
+	color: #030303;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+
+}
+
+#h1documentazione {/*titolo 'documentazione'*/
+	text-align: center;
+	text-decoration: underline;
+	margin: 0px 0px 0px 0px !important;
+	padding: 40px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	font-family: 'Kotta One', serif;
+
+
+}
+
+.h2underline {/*tutti i titoli... abstract, etc...*/
+	text-decoration: none;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+}
+
+#pmp, #csd {/*project management plan, communication strategy document*/
+	text-align: center;
+	font-family: 'Kotta One', serif;
+
+}
+
+/*iniziamo con le sezioni della documentazione...*/
+
+#section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8 {
+	height: 3000px;
+	text-decoration: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+
+}
+
+/*#section2 {
+	height: 700px;
+		text-decoration: none;
+			margin: 70px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+
+
+}
+
+#section3 {	
+	height: 700px;
+		text-decoration: none;
+			margin: 70px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+
+}
+
+#section4 {	
+	height: 700px;
+		text-decoration: none;
+			margin: 70px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+
+}
+
+#section5 {	
+	height: 700px;
+		text-decoration: none;
+			margin: 70px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+
+}
+
+#section6 {	
+	height: 700px;
+		text-decoration: none;
+			margin: 70px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+
+}
+
+#section7 {	
+	height: 700px;
+		text-decoration: none;
+			margin: 70px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+
+}
+
+#section8 {	
+	height: 700px;
+	text-decoration: none;
+	margin: 70px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+}*/
+
+
+#arrowdown {
+	color: #C3A476;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	font-size: 25px;
+
+}
+
+#arrowdown.activearrow {
+	color: #2e2e2e;
+
+
+}
+
+
+.active2 {
+	text-align: center;
+	color: grey;
+	padding: 0px !important;
+	opacity: 0.4;
+	transition: opacity .2s ease-in;
+}
+
+.active2:hover {
+	opacity: 0.9;
+	transition: opacity .2s ease-in;
+
+}
+
+
+
