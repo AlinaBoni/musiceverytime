@@ -569,10 +569,10 @@ ________________________________________________________________________________
 /*SIXTIES*/
 
 .textt {
-	width: 500px;
+	width: 600px;
 	text-align: left;
-	padding-left: 400px;
-	padding-right: 400px;
+	margin-left: auto;
+  	margin-right: auto;
 	font-family: 'Lato', sans-serif;
 
 
@@ -592,10 +592,14 @@ ________________________________________________________________________________
 
 .colorsec {
 	background-color: #C3A476;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .colorsec2 {
 	background-color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 
@@ -634,7 +638,6 @@ ________________________________________________________________________________
 .scene {
 	height: 200px;
 	position: relative;
-	background: url(../img/5570.jpg);
 }
 
 .scene img {
@@ -665,7 +668,7 @@ animation-name: logomove;
 position: relative; ;
 width: 200px;
 height: 200px;
-animation-iteration-count: 2;
+animation-iteration-count: infinite;
 animation-direction: alternate;
 
 }
