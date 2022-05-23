@@ -48,9 +48,10 @@ html {scroll-behavior: smooth;}
 .h2underline {/*tutti i titoli... abstract, etc...*/
 	text-decoration: none;
 	text-align: left;
-	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	border: 0px 0px 0px 0px;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 #pmp, #csd {/*project management plan, communication strategy document*/
@@ -137,10 +138,11 @@ html {scroll-behavior: smooth;}
 #arrowdown {
 	color: #C3A476;
 	text-align: center;
-	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	text-decoration: none;
 	font-size: 25px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 
 }
 
@@ -165,5 +167,16 @@ html {scroll-behavior: smooth;}
 
 }
 
+#albero {
+	width: 500px;
+	height: auto;
+	margin: 0px;
+}
 
-
+#wireframe {
+	display: inline-block;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding: 0px;
+	}
