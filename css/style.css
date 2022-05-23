@@ -7,7 +7,9 @@
 
 
 html {  
-	scroll-behavior: smooth;}
+	scroll-behavior: smooth;
+
+}
 
 /*BODY: pagina genepxrale comprendente HEADER (NAV - menu navigazione)*/ 
 
@@ -19,7 +21,9 @@ body {
   border: 0px !important;
   max-width: 100%;
 
+
 	}
+
 
 
 /*______________________________________________________________________________________________*/
@@ -38,6 +42,8 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 300px;
+
+
 	
 			}
 
@@ -63,22 +69,27 @@ header, nav, #title {
 	display: inline-block;
 }
 
-
+@media only screen and (max-width: 800px) {
+	header, nav, #title, .dropbtn, .dropdown, .dropdown-content, #dropd, .vocemenu, .active {text-align: left;
+					width: 100%;
+					margin: 0px !important;				
+					padding: 0px !important;
+					display: block !important;
+				}
+}
 	
 nav {
 	text-align: center !important;
-	margin-top: 0px !important;
+	margin-top: 100px !important;
 	margin-bottom: 0px; /*  !important serve a dire che se trovia informazioni contraddittorie altrove, questa è la più importante*/
 	margin-right: 0px;
-	margin-left: 500px;
 	background: none;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-top: 0px;
 	text-decoration: none; /*non voglio sottolineature etc.*/
-
-
+	float: right;
 
   		
 	}
@@ -222,12 +233,21 @@ nav {
 .mainhome {
 	background-color: #ffffff;
 	height: 800px;
+	margin: 0px!important;
 
+}
+
+@media only screen and (max-width: 800px) {
+	.mainhome {text-align: left;
+					width: 100%;
+					margin: 0px !important;				
+					overflow: hidden;
+				}
 }
 
 
 		#bluepic1 {
-			width: 800px;
+			max-width: 60%;
 			height: auto;
 			float: right;
 
@@ -248,36 +268,63 @@ nav {
 
 
 .primo { /*paragrafo*/
-	padding-left: 100px; 
-	width: 500px;
+	margin-left: 100px; 
 	text-align: left; ;
 	padding-top: 100px;
 	padding-bottom: 100px;
-font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
+	max-width: 100%;
+	overflow: hidden;
 
 }
 
+@media only screen and (max-width: 800px) {
+	.primo {text-align: left;
+					width: 100%;
+					margin: 0px !important;				
+					overflow: hidden;
+				}
+}
 
 .secondo {/* paragrafo*/
-	padding-left: 600px; 
-	width: 500px;
+	padding-left: 400px; 
+	padding-right: 50px;
 	text-align: left;
 	margin-top: -400px;
 font-family: 'Lato', sans-serif;
+	max-width: 100%;
+		overflow: hidden;
 
 
+
+
+}
+
+@media only screen and (max-width: 800px) {
+	.secondo {text-align: left;
+					width: 100%;
+					margin: 0px !important;				
+					overflow: hidden;
+				}
 }
 
 .terzo {/*paragrafo*/
-	padding-left: 600px; 
-	width: 500px;
+	margin-left: 400px; 
+	margin-right: 50px;
+	max-width: 100%;
 	text-align: left;
-
+	overflow: hidden;
 	padding-top: 70px;
-font-family: 'Lato', sans-serif;
-
+	font-family: 'Lato', sans-serif;
 
 }
+
+@media only screen and (max-width: 800px) {
+	.terzo {text-align: left;
+					width: 100%;
+					margin: 0px !important}
+}
+
 
 /*_________________________________________________________________*MUSICMOOD*/
 
@@ -290,15 +337,27 @@ font-family: 'Lato', sans-serif;
 	padding-right: 0px;
 	margin: 0px 0px 0px 0px;
 	font-family: 'Kotta One', sans-serif;
+	max-width: 100%;
+
 
 }
+
+
+
+
+
 
 #allmood {
 	background-color: #C3A476;
 	margin-top: 200px;
 	font-family: 'Lato', sans-serif;
+	overflow: hidden;
+	max-width: 100%;
 
 }
+
+
+
 
 
 
@@ -316,7 +375,17 @@ font-family: 'Lato', sans-serif;
 .container {
   position: relative;
 
+
+
 }
+
+@media only screen and (max-width: 800px) {
+	#text1, .inner, .content, .container, .flip-card, .flip-card-front, .flip-card-inner, .flip-card-back {text-align: left;
+					width: 100%;
+					margin: 0px !important;				
+				}
+}
+
 
 .container .content {
   position: absolute;
@@ -444,11 +513,20 @@ font-family: 'Lato', sans-serif;
 
 #aboutustext {
 	text-align: center;
-	padding-left: 300px;
-	padding-right: 300px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 300px;
+	margin-left: 300px;
 	font-family: 'Lato', sans-serif;
 
 }
+
+@media only screen and (max-width: 800px) {
+	#aboutustext {text-align: left;
+					width: 100%;
+					margin: 0px !important}
+}
+
 
 
 
@@ -568,11 +646,19 @@ ________________________________________________________________________________
 
 /*SIXTIES*/
 
+@media only screen and (max-width: 800px) {
+	.textt, .picture, .colorsec, .colorsec2, .video, .scene, #diskround, .stereo {text-align: left;
+					width: 100%;
+					margin: 0px !important;				
+					overflow: hidden;
+					padding: 0px !important;
+				}
+}
+
 .textt {
-	width: 600px;
 	text-align: left;
-	margin-left: auto;
-  	margin-right: auto;
+	margin-left: 400px;
+  	margin-right: 400px;
 	font-family: 'Lato', sans-serif;
 
 
