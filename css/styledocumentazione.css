@@ -1,5 +1,14 @@
 html {scroll-behavior: smooth;}
 
+
+.stylefont {
+		font-family: 'Lato', sans-serif;
+		margin: 0px;
+		padding-left: 100px;
+		padding-right: 100px;
+
+}
+
 #bodydoc {
 	background-color: #C3A476; 
 
